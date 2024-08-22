@@ -7,6 +7,7 @@ namespace API.Entities
 {
     public class AppUser
     {
+        //when i type any style is go to browser with camelCase
         public int Id { get; set; }
         public required string UserName { get; set; }
     }
